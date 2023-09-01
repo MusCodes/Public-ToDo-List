@@ -1,0 +1,85 @@
+body {
+  /* background-image: linear-gradient(to left, rgb(131, 42, 131),rgb(30, 0, 221)); */
+
+  opacity: 0.8;
+  background-image: radial-gradient(circle at center center, #890de2, #f60e8a),
+    repeating-radial-gradient(
+      circle at center center,
+      #efde1d,
+      #ed0000,
+      10px,
+      transparent 50px,
+      transparent 50px
+    );
+  background-blend-mode: multiply;
+}
+.change-Color {
+  background-color: red;
+}
+.change-Color:hover {
+  background-color: rgb(0, 141, 180);
+  scale: 1;
+}
+table,
+th,
+tr {
+  border: 1px solid black;
+  padding: 10px;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 15%;
+  border-collapse: collapse;
+  font-size: 26px;
+  margin-bottom: 5%;
+  background-color: black;
+  color: #efde1d;
+}
+.inputs {
+  display: flex;
+  justify-content: start;
+  margin-left: 50px;
+
+  margin-top: 10px;
+
+  font-family: monospace;
+}
+
+tr {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+th {
+  font-family: cursive;
+  color: aquamarine;
+}
+#x,
+#y {
+  font-size: 30px;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#delete {
+  background-color: white;
+  color: blue;
+  transition: background-color 1s;
+}
+#delete:hover {
+  background-color: black;
+  scale: 0.9;
+}
+
+#delete:active {
+  scale: 1;
+}
+#complete {
+  background-color: blanchedalmond;
+  color: green;
+  transition: background-color 1s;
+}
+#complete:hover {
+  background-color: black;
+  scale: 0.9;
+}
+#complete:active {
+  scale: 1;
+}
